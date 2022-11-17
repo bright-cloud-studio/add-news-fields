@@ -12,5 +12,5 @@
 
 /* Hooks */
 if (\Config::getInstance()->isComplete()) {
-  $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('CustomTags\AddNewsFieldsTags', 'onNewsTag');
+  $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('CustomTags\AddNewsFieldsTags', 'onReplaceTag');
 }
