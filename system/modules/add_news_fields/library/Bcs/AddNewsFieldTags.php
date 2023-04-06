@@ -14,9 +14,9 @@ namespace Bcs;
 use Contao\DataContainer;
 use Contao\ContentElement;
 
-class AddNewsFieldsTags extends \System
+class AddNewsFieldTags extends \System
 {
-	public function onReplaceTag (string $insertTag)
+	public function replaceTags (string $insertTag)
 	{
 		// if this tag doesnt contain :: it doesn't have an id, so we can stop right here
 		if (stristr($insertTag, "::") === FALSE) {
