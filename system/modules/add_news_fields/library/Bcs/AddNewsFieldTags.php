@@ -10,7 +10,7 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
 **/
 
-namespace CustomTags;
+namespace Bcs;
 use Contao\DataContainer;
 use Contao\ContentElement;
 
@@ -34,7 +34,7 @@ class AddNewsFieldsTags extends \System
 			break;
 		}
 
-		// something has gone horribly wrong, let the user know and hope for brighter lights ahead
-		return 'something_went_wrong';
+		// return false so the next/other replace tag functions can run
+		return false;
 	}
 }
