@@ -14,5 +14,5 @@
 /* Register Classes */
 ClassLoader::addClasses(array
 (
-	'CustomTags\AddNewsFieldsTags' 		=> 'system/modules/add_news_fields/library/CustomTags/AddNewsFieldsTags.php'
+	'Bcs\AddNewsFieldTags' 		=> 'system/modules/add_news_fields/library/Bcs/AddNewsFieldTags.php'
 ));
